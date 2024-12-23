@@ -38,8 +38,8 @@ const Home = () => {
               </ul>
          </div>
 
-         <div className='w-full md:w-9/12 mt-8 md:mt-0 h-96 relative'>
-            <img src={HeroImage} alt='' className='h-80 md:h-full w-full shadow-lg' />
+         <div className='w-full md:w-9/12 mt-8 md:mt-0 h-64 md:h-full relative'>
+            <img src={HeroImage} alt='' className='h-64 md:h-full w-full shadow-lg' />
             <div className='absolute top-16 left-8'>
               <p className='text-red-600 font-bold mb-2 text-xl'> Sale Offer</p>
               {/* <p className='text-gray-600 mb-4'> Mariam | e-SHOP</p> */}
