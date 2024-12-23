@@ -39,12 +39,12 @@ const Home = () => {
          </div>
 
          <div className='w-full md:w-9/12 mt-8 md:mt-0 h-96 relative'>
-            <img src={HeroImage} alt='' className='h-full w-full shadow-lg' />
+            <img src={HeroImage} alt='' className='h-80 md:h-full w-full shadow-lg' />
             <div className='absolute top-16 left-8'>
               <p className='text-red-600 font-bold mb-2 text-xl'> Sale Offer</p>
               {/* <p className='text-gray-600 mb-4'> Mariam | e-SHOP</p> */}
-              <h2 className='text-3xl font-bold'> WELCOME TO E-SHOP</h2>
-              <p className='text-xl text-gray-800 mt-2.5 font-bold'> MILLIONS+ PRODUCTS</p>
+              <h2 className='md:text-3xl text-2xl font-bold'> WELCOME TO E-SHOP</h2>
+              <p className='md:text-xl text-gray-800 mt-2.5 font-bold'> MILLIONS+ PRODUCTS</p>
               <button className='bg-red-600 px-8 py-1.5 text-white mt-4 hover:bg-red-700 rounded
                transform transition-transform duration-300 hover:scale-105'>SHOP NOW</button>
             </div>
