@@ -8,7 +8,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Order from './pages/Order';
 import FilterData from './pages/FilterData';
-import ProductDetail from './pages/productDetail';
+import ProductDetail from './pages/ProductDetail';
 import { mockData } from './assets/mockData';
 import { setProducts } from './redux/productSlice';
 import { useDispatch } from 'react-redux';
