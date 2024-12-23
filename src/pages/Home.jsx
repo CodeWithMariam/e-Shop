@@ -45,7 +45,7 @@ const Home = () => {
               {/* <p className='text-gray-600 mb-4'> Mariam | e-SHOP</p> */}
               <h2 className='md:text-3xl text-2xl font-bold'> WELCOME TO E-SHOP</h2>
               <p className='md:text-xl text-gray-800 mt-2.5 font-bold'> MILLIONS+ PRODUCTS</p>
-              <button className='bg-red-600 px-8 py-1.5 text-white mt-4 hover:bg-red-700 rounded
+              <button className='bg-red-600 px-4 md:px-8 py-1.5 text-white mt-4 hover:bg-red-700 rounded
                transform transition-transform duration-300 hover:scale-105'>SHOP NOW</button>
             </div>
          </div>
